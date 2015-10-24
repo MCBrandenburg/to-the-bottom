@@ -2,9 +2,13 @@
   "name": "to-the-bottom",
   "version": "0.0.1",
   "description": "Command line utility to get the child data of an item.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "toTheBottom": "lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +29,8 @@
   "dependencies": {
     "commander": "2.9.0",
     "lodash": "3.10.1"
+  },
+  "engines":{
+    "node": ">4.0.0"
   }
 }
