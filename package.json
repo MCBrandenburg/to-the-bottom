@@ -1,6 +1,6 @@
 {
   "name": "to-the-bottom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line utility to get the child data of an item.",
   "main": "./bin/index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "lodash": "3.10.1"
   },
   "engines":{
-    "node": ">4.0.0"
+    "node": ">=4.0.0"
   }
 }

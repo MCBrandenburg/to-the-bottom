@@ -66,7 +66,7 @@ Example children
 
 ### Default Output
 ```bash
-node lib/index.js -s ../test/data/naicsExample.json  -c children -d data.json
+toTheBottom -s ../test/data/naicsExample.json  -c children -d data.json
 ```
 
 ```json
@@ -84,7 +84,7 @@ node lib/index.js -s ../test/data/naicsExample.json  -c children -d data.json
 
 ### Include All Flag
 ```bash
-node lib/index.js -s ../test/data/naicsExample.json  -c children -d data.json -a
+toTheBottom -s ../test/data/naicsExample.json  -c children -d data.json -a
 ```
 
 ```json
