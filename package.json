@@ -1,12 +1,12 @@
 {
   "name": "to-the-bottom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line utility to get the child data of an item.",
   "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "preferGlobal": "true",
+  "preferGlobal": true,
   "bin": {
     "toTheBottom": "./bin/index.js"
   },
