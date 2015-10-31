@@ -90,6 +90,10 @@ toTheBottom -s ../test/data/naicsExample.json  -c children -d data.json -a
 ```json
 [
   {
+    "label": "924 - Administration of Environmental Quality Programs",
+    "value": "924"
+  },
+  {
     "label": "9241 - Administration of Environmental Quality Programs",
     "value": "9241"
   },
@@ -102,16 +106,8 @@ toTheBottom -s ../test/data/naicsExample.json  -c children -d data.json -a
     "value": "924110"
   },
   {
-    "label": "924110 - Administration of Air and Water Resource and Solid Waste Management Programs",
-    "value": "924110"
-  },
-  {
     "label": "92412 - Administration of Conservation Programs",
     "value": "92412"
-  },
-  {
-    "label": "924120 - Administration of Conservation Programs",
-    "value": "924120"
   },
   {
     "label": "924120 - Administration of Conservation Programs",
@@ -119,3 +115,7 @@ toTheBottom -s ../test/data/naicsExample.json  -c children -d data.json -a
   }
 ]
 ```
+
+## Release Notes
+### 0.0.4
+* Fixed logic mistake where items were repeated in the list.

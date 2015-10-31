@@ -11,12 +11,12 @@ var destinationData = [];
 
 function getChildItem(object){
   if(object[program.childName]){
+    if(program.includeAll){
+      var temp = _.omit(object, program.childName);
+      destinationData.push(temp);
+    }
     _.forEach(object[program.childName],
       function(o){
-        if(program.includeAll){
-          var temp = _.omit(o, program.childName);
-          destinationData.push(temp);
-        }
         getChildItem(o);
       }
     );
