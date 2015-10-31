@@ -1,6 +1,16 @@
 # to-the-bottom
 
+[npm-image]: https://img.shields.io/npm/v/to-the-bottom.svg?style=flat
+[npm-url]: https://npmjs.org/package/to-the-bottom
+[downloads-image]: https://img.shields.io/npm/dm/to-the-bottom.svg?style=flat
+[downloads-url]: https://npmjs.org/package/to-the-bottom
+
+[![npm][npm-image]][npm-url]
+[![downloads][downloads-image]][downloads-url]
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
 A quick command line utility for collapsing an object graph.
+
 ## Installation
 ```bash
 npm install to-the-bottom -g

@@ -1,6 +1,6 @@
 {
   "name": "to-the-bottom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command line utility to get the child data of an item.",
   "main": "./bin/index.js",
   "scripts": {
